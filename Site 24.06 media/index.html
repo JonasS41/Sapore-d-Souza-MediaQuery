@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapore d'Souza - Meu Restaurante Italiano</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sapore d'Souza</a>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="navbar-menu" id="nav-list">
+                <li><a class="nav-link" href="#sobrenos">Sobre Nós</a></li>
+                <li><a class="nav-link" href="#promoçoes">Promoções</a></li>
+                <li><a class="nav-link" href="#cardapio">Cardápio</a></li>
+                <li><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Sapore d'Souza</h1>
+            <p class="lead">"Aqui, cada prato conta uma história e cada cliente é um amigo."</p>
+            <a href="#sobrenos" class="btn btn-danger">Conheça nossa história</a>
+        </div>
+    </section>
+
+     <section id="sobrenos">
+        <div class="container sobre-grid">
+            <div>
+                <img src="https://st.depositphotos.com/1004713/2018/i/450/depositphotos_20182959-stock-photo-cheerful-friends-chatting-while-lunch.jpg" class="img-fluid" alt="Amigos almoçando">
+            </div>
+            <div>
+                <h2 class="mb-4">Sobre Nós</h2>
+                <p class="mb-4">
+                   Jonas Souza, Chef altamente qualificado e formado em Gastronomia na UCB, fundou em 2026 um restaurante com tema italiano com a principal missão de que seus clientes não sejam apenas consumidores de seu produto, mas também recebam um grande amor e carinho, se sintam parte de uma família e que possam gastar pouco para irem mais.
+                </p>
+                <p>
+                    Para saber mais sobre sua origem, conquistas e histórico, você pode assistir ao documentário *Souza: A Gentileza Domina A Cozinha*, ou ler assuntos autorizados detalhados na CNN Brasil e na BBC News.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="promoçoes" class="container">
+        <h2 class="text-center mb-5">Promoções</h2>
+        <div class="promo-tracker">
+            <div class="promo-item">
+                <img src="c:\Users\Veronica\Downloads\ChatGPT Image 14 de jun. de 2026, 21_22_03-redimensionado-para-700x600.jpeg" alt="Promoção 1">
+            </div>
+            <div class="promo-item">
+                <img src="c:\Users\Veronica\Downloads\ChatGPT Image 14 de jun. de 2026, 19_48_12.png" alt="Promoção 2">
+            </div>
+            <div class="promo-item">
+                <img src="c:\Users\Veronica\Downloads\ChatGPT Image 14 de jun. de 2026, 21_09_16-redimensionado-para-700x600.jpeg" alt="Promoção 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="container">
+        <div class="cardapio-preview text-center">
+            <h1>Cardápio</h1>
+            <h4>Além das promoções nosso restaurante possui uma diversidade de pratos, basta clicar aqui para dar uma olhada:</h4>
+            <a href="cardapio.html" class="btn btn-danger">Ver Cardápio</a>
+        </div><br>
+    </section>
+
+    <section id="contato" class="container">
+        <h2 class="text-center mb-5">Contato</h2>
+        <div class="accordion">
+            <details>
+                <summary>Whatsapp</summary>
+                <div class="accordion-body">(61) 9 9670-4241</div>
+            </details>
+            <details>
+                <summary>Instagram</summary>
+                <div class="accordion-body">@Sapore_d'Souza</div>
+            </details>
+            <details>
+                <summary>Retirada de pedido</summary>
+                <div class="accordion-body">St. de Habitações Individuais Norte CA 4</div>
+            </details>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>© 2026 - Todos os Direitos Reservados 🕊️</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+  </body>
+</html>
